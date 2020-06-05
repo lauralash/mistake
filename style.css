@@ -6,8 +6,9 @@
 /*-----structure-----*/
 
 body{
-  margin: 0;
-  background-color: lavender
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: lavender;
 }
 
 header {
@@ -27,7 +28,7 @@ footer {
 }
 
 img {
-  width: 45%;
+  width: 25%;
   Height: 520px;
 }
 .center {
