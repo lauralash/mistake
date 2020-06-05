@@ -30,6 +30,7 @@ footer {
 img {
   width: 25%;
   Height: 520px;
+  align-content: center;
 }
 .center {
   display: block;
