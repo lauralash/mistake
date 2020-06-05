@@ -1,0 +1,121 @@
+
+/*STYLE.CSS
+
+*/
+
+/*-----structure-----*/
+
+body{
+  margin: 0;
+  background-color: lavender
+}
+
+header {
+  height: 140px;
+  background-color: rgb(126, 126, 214);
+}
+
+footer {
+  height: 45px;
+  background-color: rgb(126, 126, 214);
+  padding-top: 6%;
+}
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+}
+
+img {
+  width: 75%;
+  Height: 520px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*----top page font-----*/
+
+header h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(8, 13, 17);
+  margin: 0px;
+  padding-top: 20px;
+  font-size: 48px;
+  text-align: center;
+}
+
+header h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+  margin: 0%;
+  padding-top: 20px;
+  text-align: center;
+}
+
+/*---------font--------*/
+
+h3 {
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 3%;
+  font-size: 28px;
+  }
+
+h4 {
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1%;
+  font-size: 18px;
+}
+
+p, li, ul {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 1%;
+  font-size: 18px;
+}
+
+footer p {
+  color:black;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 22px;
+  
+}
+
+/*---contact me links---*/
+
+a {
+  font-weight: 700;
+  text-decoration: blue;
+}
+
+a:link {color:blue}
+a:visit { color: blueviolet}
+a:hover { 
+  color: crimson;
+  text-decoration: underline;
+  }
+a:active { color:deeppink}
+
+/*----add on elements---*/
+
+hr {
+  border: .5px solid rgb(126, 126, 214);
+}
+
+img, iframe { border-radius: 8px;} 
+
+iframe { border: 1px solid blue;}
+
+/*----spacer---*/
+
+.gap-sm {
+  height: 50px;
+  width: auto;
+}
+
