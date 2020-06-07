@@ -1,48 +1,39 @@
+/* -------css------- */
 
-/*STYLE.CSS
+/* style*/
 
-*/
-
-/*-----structure-----*/
-
-body{
-  margin-left: 10%;
-  margin-right: 10%;
-  background-color: lavender;
+body {
+  background: linear-gradient(to bottom, #75529d 0%,#7bd6d9 100%);
 }
 
 header {
-  height: 140px;
-  background-color: rgb(126, 126, 214);
+	height: 140px;
+	background-color: ;
+}
+
+.logo {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 72px;
+  color: black;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0 0 0;
 }
 
 footer {
-  height: 45px;
-  background-color: rgb(126, 126, 214);
-  padding-top: 6%;
+	background-color: #75529d;
+	
 }
 
-.wrapper {
-  width: 100%;
-  margin: auto;
+section {
+	padding: 0 25%;
+  margin: 80px 0;
 }
 
-img {
-  width: 15%;
-  Height: 520%;
-  align-content: center;
-}
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-/*----top page font-----*/
+/* -------  fonts ------- */
 
 header h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Nanum Pen Script', cursive;
   color: rgb(8, 13, 17);
   margin: 0px;
   padding-top: 20px;
@@ -51,73 +42,80 @@ header h1 {
 }
 
 header h2 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Nanum Pen Script', cursive;
   color:black;
   margin: 0%;
   padding-top: 20px;
   text-align: center;
 }
 
-/*---------font--------*/
-
 h3 {
   color:black;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Nanum Pen Script', cursive;
   margin: 3%;
   font-size: 28px;
   }
 
 h4 {
   color:black;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Nanum Pen Script', cursive;
   margin: 1%;
   font-size: 18px;
 }
 
 p, li, ul {
   color: black;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Nanum Pen Script', cursive;
   margin: 1%;
   font-size: 18px;
 }
 
 footer p {
   color:black;
+  font-family: 'Nanum Pen Script', cursive;
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 22px;
   
 }
 
-/*---contact me links---*/
-
 a {
-  font-weight: 700;
-  text-decoration: blue;
+	font-weight: 700;
+	text-decoration: none;	
+}
+a:link { color: black }
+a:visited { color: darkorchid }
+a:hover { color: aliceblue; 
+text-decoration: underline;}
+a:active { color:  deeppink; }
+
+footer p {
+	color:  black;	
+	text-align: center;
+  padding: 30px;
+  margin: 0;
 }
 
-a:link {color:blue}
-a:visit { color: blueviolet}
-a:hover { 
-  color: crimson;
-  text-decoration: underline;
-  }
-a:active { color:deeppink}
-
-/*----add on elements---*/
+/* -------  Elements ------- */
 
 hr {
-  border: .5px solid rgb(126, 126, 214);
+  width: 420px;
+	height: 32px;
+	border: none;
+  margin-top: 30px;
+  margin-bottom: 20px;
+	background-image: url("images/divider.png");
 }
 
-img, iframe { border-radius: 8px;} 
+img, iframe { 
+  width: 100%;	
+  border-radius: 8px;
+  border: 1px solid #6e529d ;
+} 
 
-iframe { border: 1px solid blue;}
+/* -------  Modifier styles ------- */
 
-/*----spacer---*/
-
-.gap-sm {
-  height: 50px;
-  width: auto;
+.border-top {
+  padding-top: 80px;
+  border-top: 2px solid  aliceblue;
 }
 
